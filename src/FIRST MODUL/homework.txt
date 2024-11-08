@@ -1,0 +1,741 @@
+
+namespace uyga_vazifa_1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            Console.WriteLine("4 xonali son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var ones = number % 10; 
+            var tens = number / 10 % 10; 
+            var hundreds = number / 100 % 10; 
+            var thausands = number / 1000; 
+
+            var sum = thausands * 1000 + hundreds * 100 + ones * 10 + tens;
+
+            Console.WriteLine("natija: " + sum);
+            */
+            
+
+            /*
+            Console.WriteLine("3 xonali son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var ones = number % 10; // 4
+            var tens = number / 10 % 10; //3 
+            var hundreds = number / 100 % 10; //2 
+
+            var sum = tens * 100 + hundreds * 10 + ones;
+
+            Console.WriteLine("natija: " + sum);
+            */
+
+            /*
+            Console.WriteLine("4 xonali son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var ones = number % 10; // 4
+            var tens = number / 10 % 10; //3 
+            var hundreds = number / 100 % 10; //2 
+            var thausands = number / 1000; //1 
+
+            var sum = thausands * 10 + hundreds * 100 + tens * 1000 + ones;
+
+            Console.WriteLine("natija: " + sum);
+            */
+
+            /*
+            Console.WriteLine("GB kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var megaBayt = number * 1024;
+
+            Console.WriteLine("natija: " + megaBayt);
+            */
+
+            /*
+            Console.WriteLine("GB kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            var Bit = number * 1024 * 1024 * 1024 * 8;
+
+            Console.WriteLine("natija: " + Bit);
+            */
+
+            /*
+            Console.WriteLine("GB kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var teraBayt = number / 1024;
+
+            Console.WriteLine("natija: " + teraBayt);
+            */
+
+            /*
+            Console.WriteLine("Fleshkaning hajmini GB da kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            var drive = number / 2;
+
+            Console.WriteLine("natija : " + drive + " ta 2 gb li kino sig'adi ");
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            var degree1 = number * number;
+            var degree2 = degree1 * degree1;
+            var degree3 = degree2 * degree1;
+
+            Console.WriteLine("natija : " + degree3);
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            var degree1 = number * number;
+            var degree2 = degree1 * degree1;
+            var degree3 = degree2 * degree2;
+
+            Console.WriteLine("natija : " + degree3);
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("bu son juft");
+            }
+            else
+            {
+                Console.WriteLine("bu son toq");
+            }
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number % 2 != 0)
+            {
+                Console.WriteLine("bu son toq");
+            }
+            else
+            {
+                Console.WriteLine("bu son juft");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            var ones1 = number / 10;
+            var ones2 = number % 10;
+
+            if (ones1 + ones2 <= 18 && ones1 * 10 + ones2 >= 10)
+            {
+                Console.WriteLine("2 xonali son");
+            }
+            else
+            {
+                Console.WriteLine("2 xonali son emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number >= 1000 && number <= 9999)
+            {
+                Console.WriteLine("4 xonali son");
+            }
+            else
+            {
+                Console.WriteLine("4 xonali son emas!");
+            }
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number >= 10 && number <= 99 && number % 2 == 0)
+            {
+                Console.WriteLine("2 xonali son va juft");
+            }
+            else
+            {
+                Console.WriteLine("2 xonali son yoki juft emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number >= 100 && number <= 999 && number % 2 != 0)
+            {
+                Console.WriteLine("3 xonali son va toq");
+            }
+            else
+            {
+                Console.WriteLine("3 xonali son yoki toq emas!");
+            }
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt64(Console.ReadLine());
+
+            if (number >= 1000 && number <= 9999 && number % 2 == 0)
+            {
+                Console.WriteLine("4 xonali son va juft");
+            }
+            else
+            {
+                Console.WriteLine("4 xonali son yoki juft emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 % 2 != 0 && number2 % 2 != 0)
+            {
+                Console.WriteLine("ikkala son ham toq");
+            }
+            else
+            {
+                Console.WriteLine("toq emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 % 2 == 0 && number2 % 2 == 0)
+            {
+                Console.WriteLine("ikkala son ham juft");
+            }
+            else
+            {
+                Console.WriteLine("juft emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 % 2 != 0 && number2 % 2 != 0 && number1 >= 10 && number1 <= 99 && number2 >= 10 && number2 <= 99)
+            {
+                Console.WriteLine("ikkala son ham toq ham ikki xonali");
+            }
+            else
+            {
+                Console.WriteLine("toq yoki ikki xonali emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number / 10;
+
+            if (ones == tens)
+            {
+                Console.WriteLine("ikkala son bir biriga teng");
+            }
+            else
+            {
+                Console.WriteLine("ikkala son bir biriga teng emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number / 10;
+
+            var sum = ones + tens;
+
+            if (sum > 10)
+            {
+                Console.WriteLine("yig'indisi 10 dan katta");
+            }
+            else
+            {
+                Console.WriteLine("yig'indisi 10 dan katta emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number / 10;
+
+            var sum = ones * tens;
+
+            if (sum > 20)
+            {
+                Console.WriteLine("yig'indisi 10 dan katta");
+            }
+            else
+            {
+                Console.WriteLine("yig'indisi 10 dan katta emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number / 10;
+
+            if (ones % 2 != 0 && tens % 2 != 0 && number <= 99 & number >= 10)
+            {
+                Console.WriteLine("ikkalasi ham toq");
+            }
+            else
+            {
+                Console.WriteLine("toq emas yoki ikki xonali emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+            var ones = number % 10;
+            var tens = number / 10;
+
+            if (ones > 5 && tens > 5)
+            {
+                Console.WriteLine("ikkalasi ham 5 dan katta");
+            }
+            else
+            {
+                Console.WriteLine("ikkalasi ham 5 dan katta emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 3 == 0)
+            {
+                Console.WriteLine("3 ga karrali son");
+            }
+            else
+            {
+                Console.WriteLine("3 ga karrali son emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 7 == 0)
+            {
+                Console.WriteLine("7 ga karrali son");
+            }
+            else
+            {
+                Console.WriteLine("7 ga karrali son emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 3 == 0 && number % 8 == 0)
+            {
+                Console.WriteLine("3 ga va 8 ga karrali son");
+            }
+            else
+            {
+                Console.WriteLine("3 ga va 8 ga karrali son emas!");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 7 == 0 && number % 9 == 0)
+            {
+                Console.WriteLine("7 ga va 9 ga karrali son");
+            }
+            else
+            {
+                Console.WriteLine("7 ga va 9 ga karrali son emas!");
+            }
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 5 != 0)
+            {
+                Console.WriteLine("5 ga bolinmaydi");
+            }
+            else
+            {
+                Console.WriteLine("5 ga bolinadi");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number = Convert.ToInt32(Console.ReadLine());
+
+            if (number % 4 == 0 && number % 3 != 0)
+            {
+                Console.WriteLine("4 ga bolinib 3 ga bolinmaydi");
+            }
+            else
+            {
+                Console.WriteLine("xato");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 > number2)
+            {
+                Console.WriteLine("a soni b sonidan katta");
+            }
+            else
+            {
+                Console.WriteLine("a soni bsonidan katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 == number2)
+            {
+                Console.WriteLine("a soni b soni bir biriga teng");
+            }
+            else
+            {
+                Console.WriteLine("a soni bsoniga teng emas");
+            } 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+            var number3 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 > number2 && number1 > number3)
+            {
+                Console.WriteLine("a soni katta");
+            }
+            else
+            {
+                Console.WriteLine("a soni katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+            var number3 = Convert.ToInt32(Console.ReadLine());
+
+            if (number3 > number2 && number3 > number1)
+            {
+                Console.WriteLine("c soni katta");
+            }
+            else
+            {
+                Console.WriteLine("c soni katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+            var number3 = Convert.ToInt32(Console.ReadLine());
+
+            if (number2 < number1 && number2 < number3)
+            {
+                Console.WriteLine("b soni kichik");
+            }
+            else
+            {
+                Console.WriteLine("b soni kichik emas");
+            } */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 >= number2 * 2)
+            {
+                Console.WriteLine("a soni b sonidan 2 barobar katta");
+            }
+            else
+            {
+                Console.WriteLine("a soni b sonidan 2 barobar katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number2 >= number1 * 5)
+            {
+                Console.WriteLine("b soni a sonidan 5 barobar katta");
+            }
+            else
+            {
+                Console.WriteLine("b soni a sonidan 5 barobar katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number2 >= number1 * 4 || number1 >= number2 * 4)
+            {
+                Console.WriteLine("biri ikkinchisidan 4 barobar katta");
+            }
+            else
+            {
+                Console.WriteLine("biri ikkinchisidan 4 barobar katta emas");
+            }
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 > number2)
+            {
+                Console.WriteLine(number1);
+            }
+            else
+            {
+                Console.WriteLine(number2);
+            } 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 < number2)
+            {
+                Console.WriteLine(number1);
+            }
+            else
+            {
+                Console.WriteLine(number2);
+            } 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 >= 10 && number1 <= 99 && number2 >= 10 && number2 <= 99)
+            {
+                Console.WriteLine(number1 + number2);
+            }
+            else
+            {
+                Console.WriteLine(number1 * number2);
+            }
+            */
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 % 2 == 0 && number2 % 2 == 0)
+            {
+                Console.WriteLine(number1 + number2);
+            }
+            else
+            {
+                Console.WriteLine(number1 * number2);
+            } 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+
+            if (number1 % 2 != 0 && number2 % 2 != 0)
+            {
+                Console.WriteLine(number1 * number2);
+            }
+            else
+            {
+                Console.WriteLine(number1);
+                Console.WriteLine(number2);
+            } 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+            var number3 = Convert.ToInt32(Console.ReadLine());
+
+            var sum = 0;
+
+            if (number1 % 2 != 0)
+            {
+                sum++;
+            }
+            if (number2 % 2 != 0)
+            {
+                sum++;
+            }
+            if (number3 % 2 != 0)
+            {
+                sum++;
+            }
+
+            Console.WriteLine(sum); 
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+
+            var ones = number1 % 10;
+            var tens = number1 / 10 % 10;
+            var hundreds = number1 / 100 % 10;
+            var thousands = number1 / 1000;
+
+            var sum = 0;
+
+            if (ones % 2 == 0)
+            {
+                sum++;
+            }
+            if (tens % 2 == 0)
+            {
+                sum++;
+            }
+            if (hundreds % 2 == 0)
+            {
+                sum++;
+            }
+            if (thousands % 2 == 0)
+            {
+                sum++;
+            }
+
+            Console.WriteLine(sum);
+            */
+
+
+            /*
+            Console.WriteLine("son kiriting! ");
+            var number1 = Convert.ToInt32(Console.ReadLine());
+            var number2 = Convert.ToInt32(Console.ReadLine());
+            var number3 = Convert.ToInt32(Console.ReadLine());
+            var number4 = Convert.ToInt32(Console.ReadLine());
+            var number5 = Convert.ToInt32(Console.ReadLine());
+
+            var sum = 0;
+
+            if (number1 % 2 == 0)
+            {
+                sum++;
+            }
+            if (number2 % 2 == 0)
+            {
+                sum++;
+            }
+            if (number3 % 2 == 0)
+            {
+                sum++;
+            }
+            if (number4 % 2 == 0)
+            {
+                sum++;
+            }
+            if (number5 % 2 == 0)
+            {
+                sum++;
+            }
+
+            Console.WriteLine(sum);  
+            */
+        }
+    }
+}
