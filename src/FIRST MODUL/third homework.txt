@@ -1,0 +1,145 @@
+                                                  oson 10 ta
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+namespace homework_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("satr kiriting: ");
+            var text = Console.ReadLine();
+            var texted = string.Empty;
+
+            for (var i = text.Length; i > 0; i--)
+            {
+                texted += text[i-1];
+            }
+            Console.WriteLine(texted);
+        }
+    }
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+namespace homework_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("satr kiriting: ");
+            var text = Console.ReadLine();
+            var consonants = 0;
+            var vowels = 0;
+
+            for (var i = 0; i < text.Length; i++)
+            {
+                if (text[i] == 'a' || text[i] == 'A' || text[i] == 'o' || text[i] == 'O' || text[i] == 'i'
+                    || text[i] == 'I' || text[i] == 'u' || text[i] == 'U' || text[i] == 'e' || text[i] == 'E')
+                {
+                    vowels++;
+                }
+                else consonants++;
+            }
+            Console.WriteLine(vowels + " ta unli harf");
+            Console.WriteLine(consonants + " ta undosh harf");
+        }
+    }
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+namespace homework_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("satr kiriting: ");
+            var text = Console.ReadLine();
+            var reverse = string.Empty;
+            var telugu = string.Empty;
+
+            bool value = false;
+
+            for (var i = 0; i < text.Length; i++)
+            {
+                reverse += text[i];
+            }
+            for (var i = text.Length - 1; i >= 0; i--)
+            {
+                telugu += text[i];
+            }
+            if (reverse == telugu)
+            {
+                value = true;
+                Console.WriteLine(value);
+            }
+            else
+            {
+                value = false;
+                Console.WriteLine(value);
+            }
+        }
+    }
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+namespace homework_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("satr kiriting: ");
+            var text = Console.ReadLine();
+            var counter = 1;
+
+            for (var i = 0; i < text.Length - 1; i++)
+            {
+                if (text[i] == ' ' && text[i + 1] != ' ' && text[i - 1] != ' ')
+                {
+                    counter++;
+                }
+            }
+            Console.WriteLine(counter);
+        }
+    }
+}
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 6 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 7 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 8 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 9 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 10 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                                                 o'rtacha qiyin 5 ta
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+                                                 qiyin 5 ta
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< lesson 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

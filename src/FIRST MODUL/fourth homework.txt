@@ -1,0 +1,292 @@
+
+namespace fourth_homework
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // onson 20 ta
+            // lesson 1
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var listNumbers = new List<int>();
+
+            //var threeDigit = 0;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i} : ");
+            //    var number = int.Parse(Console.ReadLine());
+            //    listNumbers.Add(number);
+
+            //    if (listNumbers[i] > 99 && listNumbers[i] <= 999)
+            //    {
+            //        threeDigit++;
+            //    }
+            //}
+            //Console.WriteLine($"{threeDigit} ta ");
+
+
+            //lesson 2
+
+            //Console.Write(" list uzunligini kiriting: ");
+            //var length =int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //var even = 0;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}-index : ");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 2 == 0)
+            //    {
+            //        even++;
+            //    }
+            //}
+            //Console.WriteLine(even);
+
+
+            //lesson 3
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //var odd = 0;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}- index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 2 != 0)
+            //    {
+            //        odd++;
+            //    }
+            //}
+            //Console.WriteLine(odd);
+
+
+            //lesson 4
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //var multipleOfTheeAndSeven = 0;
+
+
+            //for (int i = 0;  i < length; i++)
+            //{
+            //    Console.Write($"{i}-index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+
+            //    if (list[i] % 3 == 0 && list[i] % 7 == 0)
+            //    {
+            //        multipleOfTheeAndSeven++;
+            //    }
+
+            //}
+            //Console.WriteLine(multipleOfTheeAndSeven);
+
+
+            //lesson 5
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //var sumOfTwoDigitOdd = 0;
+            //var twoDigitOdds = 0;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}-index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 2 != 0 && list[i] > 9 && list[i] <= 99)
+            //    {
+            //        sumOfTwoDigitOdd += list[i];
+            //        twoDigitOdds++;
+            //    }
+            //}
+            //Console.WriteLine($"soni = {twoDigitOdds} ");
+            //Console.WriteLine($" yig'indisi = {sumOfTwoDigitOdd} ");
+
+
+            //lwsson 6
+
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}-index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //}
+            //var temp = list[0];
+            //list[0] = list[list.Count - 1];
+            //list[list.Count - 1] = temp;
+
+            //for (int i = 0; i < length ; i++)
+            //{
+            //    Console.Write(list[i]);
+            //}
+
+
+            //lesson 8
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}-index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //}
+
+            //var sum = list[list.Count - 1] + list[list.Count - 2] + list[list.Count - 3];
+            //Console.WriteLine(sum);
+
+
+            //lesson 7
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}-index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //}
+            //var sum = list[0] + list[1] + list[2];
+            //Console.WriteLine(sum);
+
+
+            //lesson 9
+
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //bool boolValue;
+            //var odd = 0;
+            //var even = 0;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}- index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 2 == 0)
+            //    {
+            //        even++;
+            //    }
+            //    else odd++;
+            //}
+            //if (even < odd)
+            //{
+            //    Console.WriteLine(boolValue = true);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(boolValue = false);
+            //}
+
+
+            //lesson 10
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}- index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 2 == 0)
+            //    {
+            //        list[i] = list[i] * 3;
+            //    }
+            //}
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.WriteLine(list[i]);
+            //}
+
+
+
+            //lesson 11
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+            //bool boolValue = false;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}- index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+            //    if (list[i] % 5 == 0)
+            //    {
+            //        boolValue = true;
+            //    }
+            //    else
+            //    {
+            //        boolValue = false;
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine(boolValue);
+
+
+            //lesson 12
+
+            //Console.Write("list uzunligini kiriting: ");
+            //var length = int.Parse(Console.ReadLine());
+            //var list = new List<int>();
+            //bool boolValue = false;
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    Console.Write($"{i}- index :");
+            //    var number = int.Parse(Console.ReadLine());
+            //    list.Add(number);
+
+
+            //}
+
+            //for (int i = 0; i < length; i++)
+            //{
+            //    if (list[i] > 9 && list[i] < 100 && list[i + 1] > 9 && list[i + 1] < 100 && list[i + 2] > 9 && list[i + 2] < 100)
+            //    {
+            //        boolValue = true;
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        boolValue = false;
+            //    }
+            //}
+            //Console.WriteLine(boolValue);
+
+
+            //
+
+        }
+    }
+}
